@@ -1,0 +1,20 @@
+.CardGroup{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.Card{
+	width: calc(100%/3);
+}
+
+.Card:hover{}
+
+.Card:hover img{}
+
+.Card img{
+	width: 100%;
+}
+
+.Card h3{}
+
+.Card p{}
