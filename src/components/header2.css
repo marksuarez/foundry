@@ -1,0 +1,21 @@
+.Header {
+	position: fixed;
+	top:0;
+	width: 100%;
+	display: flex;
+	transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.HeaderScrolled{
+    backdrop-filter: blur(20px);
+}
+
+.HeaderGroup {}
+
+.NavigationGroup {}
+
+.Header a {}
+
+.Header button {}
+
+@media (min-width: 640px) {}

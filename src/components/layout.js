@@ -9,7 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+// import Header from "./header"
+import Header2 from "./header2"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -24,20 +25,20 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+    <div>
+      <Header2 />
       <div>
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()} Secret Foundry
         </footer>
       </div>
-    </>
+    </div>
   )
 }
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+// Layout.propTypes = {
+//   children: PropTypes.node.isRequired,
+// }
 
 export default Layout

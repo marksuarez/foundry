@@ -15,12 +15,12 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+// Header.propTypes = {
+//   siteTitle: PropTypes.string,
+// }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+// Header.defaultProps = {
+//   siteTitle: ``,
+// }
 
 export default Header
