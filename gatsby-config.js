@@ -3,6 +3,7 @@ module.exports = {
     title: `Secret Foundry`,
     description: `Let's go`,
     author: `@markmarkmark`,
+    keywords: `cheese, bread`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

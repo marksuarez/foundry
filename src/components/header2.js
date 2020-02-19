@@ -30,8 +30,8 @@ class Header2 extends React.Component {
 					<Link to="/">Secret Foundry</Link>
 				</div>
 				<div className = "NavigationGroup">
-					<Link to="/">Typefaces</Link>
-					<Link to="/">Info</Link>
+					<Link to="/typefaces">Typefaces</Link>
+					<Link to="/info">Info</Link>
 				</div>
 			</div>
 		);
